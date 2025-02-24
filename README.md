@@ -16,7 +16,8 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/mariemloukill/Graph-Benchmark.git
    cd Graph-Benchmark
-2. **Set up the framework that will be used for benchmarks
+2. **Set up the framework that will be used for benchmarks**
+   
    In this case, install and set up [GraphChi](https://github.com/GraphChi/graphchi-cpp), [Ligra](https://github.com/jshun/ligra), [X-Stream](https://github.com/bindscha/x-stream), [Mmap](https://poloclub.gatech.edu/mmap/), [GridGraph](https://github.com/thu-pacman/GridGraph), [GPOP](https://github.com/thu-pacman/GridGraph)
 
 
