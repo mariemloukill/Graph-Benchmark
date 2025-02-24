@@ -75,9 +75,8 @@ It is possible (yet not required) to configure the following parameters for the 
 #### Variables:
 - `output_file="performance_data.csv"`: The file where performance data will be saved.
 - `sar_interval=1`: The interval in seconds for `sar` measurements (used for system resource monitoring).
-- `time_output="time_output.txt"`: A temporary file to store the output of the `time` command.
 - `exec_file="executions.txt"`: The input file containing the execution commands (e.g., `metrics.txt`).
-- `num_runs=5`: The number of times each command will be executed to collect average performance metrics.
+- `num_runs=5`: The number of times each command will be executed.
 
 
 ### Running the script: 
@@ -90,5 +89,5 @@ It is possible (yet not required) to configure the following parameters for the 
      ./metrics_collection.sh
      ```
 
-      It is recommended to run each framework's metrics collection script individually and within the framework's folder. This avoids issues related to directory and path changes.  To do so, navigate to the framework's directory and create a copy of `metrics_collection.sh` and a specific workloads' file (e.g. executions_Mmap.txt). Ensure the script's  `exec_file` variable points to the correct input file (e.g., executions_Mmap.txt).
+  It is recommended to run each framework's metrics collection script individually and within the framework's folder. This avoids issues related to directory and path changes.  To do so, navigate to the framework's directory and create a copy of `metrics_collection.sh` and a specific workloads' file (e.g. executions_Mmap.txt). Ensure the script's  `exec_file` variable points to the correct input file (e.g., executions_Mmap.txt).
 
