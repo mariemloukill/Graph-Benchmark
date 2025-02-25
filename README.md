@@ -2,7 +2,7 @@
 
 ## Overview
 
-Graph-Benchmark is a project designed to [provide a brief description of what your project does]. This repository includes:
+Graph-Benchmark is a project designed to run and compare workloads on six graph processing frameworks. It collects performance attributes (execution time, Memory usage and CPU usage) for each graph processing workload. This repository includes:
 
 - `metrics_collection.sh`: A shell script for collecting performance metrics.
 - `performance_all.xlsx`: An Excel file compiling performance data results.
@@ -55,7 +55,7 @@ Here are examples for each framework:
 `Ligra,PageRank10,com-orkut,"./ligra/apps/PageRank -maxiters 10 -rounds 1 ligra/datasets/com-orkut_adj.txt"`
 
 - X-Stream
-- 
+  
 `X-Stream,Pagerank10,com-orkut,"./x-stream/bin/benchmark_driver -b pagerank --pagerank::niters 10 -g x-stream/com-orkut_bin.txt --physical_memory 15032385536"`
 
 - Mmap
